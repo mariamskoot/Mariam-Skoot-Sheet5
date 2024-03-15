@@ -1,0 +1,153 @@
+body{
+    background-image: url(Pin\ by\ ♓︎\ on\ Wallpapers\ _\ Pastel\ color\ wallpaper\,\ Watercolor\ wallpaper\,\ Pastel\ background\ wallpapers.jfif);
+}
+
+.hhb{
+    height: 100px;
+    background-color: rgb(255, 179, 213); 
+    background-attachment:scrol;
+}
+.img{
+    position: fixed;
+    top: 0;
+    left: 2%;
+    /* background-color: rgb(255, 179, 213);  */
+    background-attachment:scrol;
+
+}
+.links{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px 50px 50px 50px;
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: medium;
+    background-attachment:scrol;
+} 
+a{
+    padding: 20px;
+    text-decoration: none; 
+    color: rgb(71, 70, 70); 
+    font-size: large;
+}
+a:hover{
+    padding: 20px;
+    text-decoration: none; 
+    color: white; 
+    font-size: large;
+    border-bottom: 2px solid white;
+    padding-bottom: 1%;
+}
+main{
+    height: 600px;
+    background-color: white;
+}
+h2{
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.5;
+    border-bottom: 1px solid rgb(95, 6, 53);
+    color: rgb(95, 6, 53);
+}
+.btn1{
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    left: 0%;
+    width: 250px;
+    height: 350px;
+    margin: 50px 50px 100px 210px;
+    padding: 50px 50px 50px 50px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+.btn1:hover{
+    background-color: rgba(255, 255, 255, 0.541);
+    position: fixed;
+    top: 30%;
+    left: 0%;
+    width: 250px;
+    height: 350px;
+    margin: 50px 50px 100px 210px;
+    padding: 50px 50px 50px 50px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.btn2{
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    width: 250px;
+    height: 350px;
+    margin: 50px 50px 100px -110px;
+    padding: 50px 50px 50px 50px;
+
+
+}
+.btn3{
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    width: 250px;
+    height: 350px;
+    margin: 50px 200px 100px 50px;
+    padding: 50px 50px 50px 50px;
+
+}
+.op{
+    opacity: 0.5;
+}
+.buy{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block; 
+    color: black;
+    background-color: rgb(241, 164, 198) ;
+}
+.cir{
+    border: 2px solid rgb(241, 164, 198);
+    border-radius: 50%;
+
+}
+
+.btn::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #aba9a9;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0 ;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.btn1::before{
+    transform: scaleY(0);
+
+}
+.btn1:hover::before{
+    transform: scaleY(1);
+
+}
+
+.btn2::before{
+    transform: scaleY(0);
+}
+.btn2:hover::before{
+    transform: scaleY(1);
+}
+.btn3::before{
+    transform: scaleY(0);
+}
+.btn3:hover::before{
+    transform: scaleY(1);
+} 
